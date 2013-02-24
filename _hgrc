@@ -1,2 +1,36 @@
 [ui]
-username = sontek <sontek@gmail.com>
+username = Kevin C. Smith <smithkevinc@gmail.com>
+ignore = ~/.hgignore
+merge = kdiff3
+ssh = ssh -C
+
+[web]
+cacerts = /etc/ssl/certs/ca-certificates.crt 
+
+[diff]
+git = True
+showfunc = True
+
+[extensions]
+extdiff = 
+purge =
+color =
+mq =
+highlight =
+progress =
+churn =
+record = 
+rebase = 
+hggit =
+
+[extdiff]
+cmd.vdiff = meld
+
+[merge-tools]
+kdiff3.args = $base $local $other -o $output
+
+[tortoisehg]
+vdiff = vdiff
+postpull = none
+editor = gedit
+ui.language = en

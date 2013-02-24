@@ -1,6 +1,6 @@
 [user]
-    name = John Anderson
-    email = sontek@gmail.com
+    name = Kevin C. Smith
+    email = smithkevinc@gmail.com
 
 [color]
     diff = auto
@@ -27,4 +27,5 @@
     lol = log --graph --decorate --pretty=oneline --abbrev-commit
     lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
     ls = ls-files
+    undo-commit = reset --soft HEAD^
 
