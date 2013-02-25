@@ -142,7 +142,7 @@ filetype on                   " try to detect filetypes
 filetype plugin indent on     " enable loading indent file for filetype
 set number                    " Display line numbers
 set numberwidth=1             " using only 1 column (and 1 space) while possible
-set background=dark           " We are using dark background in vim
+" set background=dark           " We are using dark background in vim
 set title                     " show title in console title bar
 set wildmenu                  " Menu completion in command mode on <Tab>
 set wildmode=full             " <Tab> cycles between all matching choices.
@@ -232,14 +232,18 @@ set incsearch               " Incrementally search while typing a /regex
 
 """" Display
 if has("gui_running")
-    colorscheme desert
+    colorscheme solarized
     " Remove menu bar
+    set background=light
     set guioptions-=m
+    set guifont=monospace\ 12
 
     " Remove toolbar
     set guioptions-=T
 else
-    colorscheme torte
+    set t_Co=16
+    set background=dark
+    colorscheme github
 endif
 
 " Paste from clipboard
