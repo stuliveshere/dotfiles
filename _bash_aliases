@@ -1,0 +1,5 @@
+dsm()
+{
+    export DJANGO_SETTINGS_MODULE=$1.settings
+}
+alias django-settings=dsm
