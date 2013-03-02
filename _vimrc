@@ -126,6 +126,11 @@ map <leader>j :RopeGotoDefinition<CR>
 
 " Rename whatever the cursor is on (including references to it)
 map <leader>r :RopeRename<CR>
+
+" Jedi options
+let g:jedi#goto_command = "<leader>vg"
+let g:jedi#popup_select_first = 0
+
 " ==========================================================
 " Pathogen - Allows us to organize our vim plugins
 " ==========================================================
