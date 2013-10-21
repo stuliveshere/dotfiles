@@ -4,3 +4,12 @@ syntax: glob
 .*.swp
 .coverage
 .noseids
+*.wpu
+build
+dist
+*.egg-info/PKG-INFO
+*.egg-info/SOURCES.txt
+*.egg-info/requires.txt
+*.egg-info/dependency_links.txt
+*.egg-info/not-zip-safe
+.idea
