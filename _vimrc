@@ -128,7 +128,7 @@ map <leader>j :RopeGotoDefinition<CR>
 map <leader>r :RopeRename<CR>
 
 " Jedi options
-let g:jedi#goto_command = "<leader>vg"
+let g:jedi#goto_assignments_command = "<leader>vg"
 let g:jedi#popup_select_first = 0
 
 " ==========================================================
