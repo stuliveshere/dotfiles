@@ -1,5 +1,5 @@
 [ui]
-username = Kevin C. Smith <smithkevinc@gmail.com>
+username = Stu Fletcher <mail@stuliveshere.com>
 ignore = ~/.hgignore
 merge = kdiff3
 ssh = ssh -C
