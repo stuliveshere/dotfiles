@@ -189,14 +189,14 @@ _complete_hosts () {
 
 
 #set up some ENVs
-export PYTHONPATH=$PYTHONPATH:/home/stewart/Dropbox/code/lib/
+export PYTHONPATH=$PYTHONPATH:$HOME/Dropbox/code/lib/
 
 export CWPROOT=$HOME/CWP
 export PATH=$PATH:$CWPROOT/bin
 
 export RSFROOT=$HOME/RSF
 export RSFSRC=$RSFROOT/RSFSRC
-source /home/stewart/RSF/share/madagascar/etc/env.sh
+source $HOME/RSF/share/madagascar/etc/env.sh
 
 export WORKON_HOME=~/.virtualenv
 source /etc/bash_completion.d/virtualenvwrapper
