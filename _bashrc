@@ -199,7 +199,12 @@ export RSFSRC=$RSFROOT/RSFSRC
 source $HOME/RSF/share/madagascar/etc/env.sh
 
 export WORKON_HOME=~/.virtualenv
-source /etc/bash_completion.d/virtualenvwrapper
+if [ -f /etc/bash_completion.d/virtualenvwrapper ]
+then
+    source /etc/bash_completion.d/virtualenvwrapper
+fi
+
+
 
 
 complete -F _complete_hosts ssh
