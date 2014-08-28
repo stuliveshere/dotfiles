@@ -196,7 +196,7 @@ export PATH=$PATH:$CWPROOT/bin
 
 export RSFROOT=$HOME/RSF
 export RSFSRC=$RSFROOT/RSFSRC
-source $HOME/RSF/share/madagascar/etc/env.sh
+source $HOME/Programs/RSF/share/madagascar/etc/env.sh
 
 export WORKON_HOME=~/.virtualenv
 if [ -f /etc/bash_completion.d/virtualenvwrapper ]

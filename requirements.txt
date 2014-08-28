@@ -1,0 +1,13 @@
+numpy
+numexpr
+cython
+matplotlib
+pandas
+sympy
+nose
+jinja2
+sphinx
+pyzmq
+pygments
+tornado
+readline
